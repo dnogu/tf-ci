@@ -10,3 +10,4 @@ on:
 jobs:
   release:
     uses: dnogu/ActionCI/.github/workflows/release.yaml@v0.0.1
+    secrets: inherit
