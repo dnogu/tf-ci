@@ -9,4 +9,4 @@ on:
 
 jobs:
   release:
-    uses: dnogu/ActionCI/.github/workflows/release.yaml@main
+    uses: dnogu/ActionCI/.github/workflows/release.yaml
