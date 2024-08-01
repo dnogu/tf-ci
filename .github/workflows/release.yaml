@@ -5,5 +5,5 @@ on:
       - closed
 
 jobs:
-  release:
+  call-release:
     uses: dnogu/ActionCI/.github/workflows/release.yaml@main
