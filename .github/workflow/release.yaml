@@ -1,0 +1,9 @@
+name: release
+on:
+  pull_requests:
+    types:
+      -closed
+
+jobs:
+  release:
+    uses: dnogu/ActionCI/.github/workflow/release.yaml@main
