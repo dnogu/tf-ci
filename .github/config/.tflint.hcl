@@ -1,9 +1,3 @@
-plugin "terraform" {
-    enabled = true
-    version = "0.9.0"
-    source  = "github.com/terraform-linters/tflint-ruleset-terraform"
-}
-
 plugin "azurerm" {
     enabled = true
     source  = "github.com/terraform-linters/tflint-ruleset-azurerm"
@@ -32,9 +26,9 @@ rule "terraform_empty_list_equality" {
   enabled = true
 }
 
-rule "terraform_map_duplicate_keys" { 
-  enabled = true
-}
+# rule "terraform_map_duplicate_keys" { 
+#   enabled = true
+# }
 
 rule "terraform_module_pinned_source" { 
   enabled = true
