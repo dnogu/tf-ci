@@ -1,5 +1,6 @@
 plugin "terraform" {
-  enabled = all
+  enabled = true
+  preset  = all
 }
 
 config {
