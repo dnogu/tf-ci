@@ -3,5 +3,5 @@ variable "env" {
 }
 
 variable "cloudflare_email" {
-    description = "admail"
+    description = "asdklfjslkfdmail"
 }
