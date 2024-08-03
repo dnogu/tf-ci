@@ -1,6 +1,7 @@
 plugin "terraform" {
-  enabled = true
-  preset  = "all"
+    enabled = true
+    version = "0.9.0"
+    source  = "github.com/terraform-linters/tflint-ruleset-terraform"
 }
 
 plugin "azurerm" {
