@@ -1,0 +1,11 @@
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  release:
+    uses: dnogu/ActionCI/.github/workflows/tflint.yaml@main
+    secrets: inherit
