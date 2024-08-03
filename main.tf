@@ -12,6 +12,13 @@ terraform {
   }
 }
 
+
+resource "random_password" "password" {
+  length           = 16
+  special          = true
+  override_special = "!#$%&*()-_=+[]{}<>:?"
+}
+
 resource "local_file" "foo" {
   content  = "foo!"
   filename = "${var.cloudflare_email}${var.ensdfkjsv}/foo.bar"
