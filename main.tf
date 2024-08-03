@@ -7,3 +7,8 @@ terraform {
     }
   }
 }
+
+resource "local_file" "foo" {
+  content  = "foo!"
+  filename = "${var.cloudflare_email}${var.ensdfkjsv}/foo.bar"
+}
