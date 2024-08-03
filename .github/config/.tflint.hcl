@@ -1,8 +1,3 @@
-plugin "terraform" {
-  enabled = true
-  preset  = "all"
-}
-
 config {
     module = true
     force = false
