@@ -1,0 +1,9 @@
+name: Generate terraform docs
+on:
+  commit:
+
+
+jobs:
+  release:
+    uses: dnogu/ActionCI/.github/workflows/documentation.yaml@main
+    secrets: inherit
