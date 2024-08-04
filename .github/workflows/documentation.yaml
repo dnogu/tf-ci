@@ -5,5 +5,5 @@ on:
 
 jobs:
   release:
-    uses: dnogu/ActionCI/.github/workflows/terraform-docs.yaml@main
+    uses: dnogu/ActionCI/.github/workflows/documentation.yaml@main
     secrets: inherit
