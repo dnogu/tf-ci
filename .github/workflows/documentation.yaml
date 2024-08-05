@@ -1,9 +1,0 @@
-on: 
-  push:
-    # only trigger on branches, not on tags
-    branches: '**'
-
-jobs:
-  release:
-    uses: dnogu/ActionCI/.github/workflows/documentation.yaml@main
-    secrets: inherit
